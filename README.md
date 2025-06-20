@@ -58,7 +58,7 @@ The Faker library is used to generate synthetic patient data.
 ### SHA-256 Hashing
 - Computes a hash for each record to detect unauthorized modifications or data loss.
 
- ## Project Outcomes
+ ## Key Findings
 
 - Successfully implemented AES encryption for gender and age, confirming confidentiality during data storage.
 - Verified that order-preserving encryption (OPE) enabled secure and accurate range queries on weight fields.
@@ -78,7 +78,7 @@ Contributions to the Secure DBaaS project are welcome. Please fork the repositor
 ## Contact
 
 Project Owner: Priyanka Vyas
-Email: vpriyanca617@gmail.com
+Email: vpriyanka.sv@gmail.com
 
 ## Acknowledgments
 
