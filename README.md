@@ -77,8 +77,8 @@ Contributions to the Secure DBaaS project are welcome. Please fork the repositor
 
 ## Contact
 
-Project Owner: Priyanka Vyas
-Email: vpriyanka.sv@gmail.com
+- Project Owner: Priyanka Vyas
+- Email: vpriyanka.sv@gmail.com
 
 ## Acknowledgments
 
