@@ -1,8 +1,10 @@
-## Secure DBaaS Project
+# Secure DBaaS Project
 
 ## Overview
 
 Secure DBaaS is a secure database-as-a-service simulation project designed to protect healthcare data using encryption and access control techniques. The project demonstrates how a database system can support secure storage, authenticated access, encrypted queries, and data integrity—all implemented using AES and Order-Preserving Encryption (OPE).
+
+---
 
 ## Features
 
@@ -12,6 +14,8 @@ Secure DBaaS is a secure database-as-a-service simulation project designed to pr
 - OPE for range queries on encrypted numeric fields (e.g., weight).
 - SHA-256 hashing to ensure data integrity.
 - Command-line interface for secure data management.
+
+---
 
 ## Installation
 
@@ -29,16 +33,18 @@ source secure-dbaas-env/bin/activate  # On Windows: secure-dbaas-env\Scripts\act
 # Install required packages
 pip install -r requirements.txt
 
-...
+---
 
 ## Getting Started
 
-Step 1: Database Setup
-Ensure your MySQL server is running locally. The system will automatically create a database named healthdetailsdb with necessary tables. You may update the MySQL credentials in the script if needed.
+### Step 1: Database Setup
 
-Step 2: Simulate Secure Operations
-Open the project in your development environment and run the notebook files in order:
-	•	AES Encryption_source_code.ipynb – Handles user authentication, role-based access, AES encryption, and integrity checks.
+Ensure your MySQL server is running locally. The system will automatically create a database named healthdetailsdb with the required tables. You can update MySQL credentials in the script if needed.
+
+### Step 2: Simulate Secure Operations
+
+Open the project in your development environment and run the notebook files in sequence:
+	•	AES Encryption_source_code.ipynb – Handles user authentication, role-based access, AES encryption, and integrity validation.
 	•	Order-Preserving Encryption (OPE)_source_code.ipynb – Enables range queries over encrypted weight data using OPE.
 
 The Faker library is used to generate synthetic patient data.
