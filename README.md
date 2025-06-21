@@ -1,12 +1,10 @@
 # Secure DBaaS Project
 
 ## Overview
-
 Secure DBaaS is a secure database-as-a-service simulation project designed to protect healthcare data using encryption and access control techniques. The project demonstrates how a database system can support secure storage, authenticated access, encrypted queries, and data integrity—all implemented using AES and Order-Preserving Encryption (OPE).
 
 
 ## Features
-
 - User registration and login with password hashing.
 - Role-based access control (admin vs. regular user).
 - AES encryption for sensitive patient data (e.g., gender and age).
@@ -15,7 +13,6 @@ Secure DBaaS is a secure database-as-a-service simulation project designed to pr
 - Command-line interface for secure data management.
 
 ## Installation
-
 To run the Secure DBaaS project, you need Python and MySQL installed on your machine. It’s recommended to use a virtual environment. Follow these steps to set up the project:
 
 ```bash
@@ -34,11 +31,9 @@ pip install -r requirements.txt
 ## Getting Started
 
 ### Step 1: Database Setup
-
 Ensure your MySQL server is running locally. The system will automatically create a database named healthdetailsdb with the required tables. You can update MySQL credentials in the script if needed.
 
 ### Step 2: Simulate Secure Operations
-
 Open the project in your development environment and run the notebook files in sequence:
 - AES Encryption_source_code.ipynb – Handles user authentication, role-based access, AES encryption, and integrity validation.
 - Order-Preserving Encryption (OPE)_source_code.ipynb – Enables range queries over encrypted weight data using OPE.
@@ -46,7 +41,6 @@ Open the project in your development environment and run the notebook files in s
 The Faker library is used to generate synthetic patient data.
 
 ## Encryption Techniques Used
-
 ### AES Encryption
 - Encrypts gender and age before storing them in the database.
 - Adds random padding to increase confidentiality and prevent pattern leakage.
@@ -59,7 +53,6 @@ The Faker library is used to generate synthetic patient data.
 - Computes a hash for each record to detect unauthorized modifications or data loss.
 
  ## Key Findings
-
 - Successfully implemented AES encryption for gender and age, confirming confidentiality during data storage.
 - Verified that order-preserving encryption (OPE) enabled secure and accurate range queries on weight fields.
 - Demonstrated role-based access control, restricting sensitive data based on user privileges.
@@ -76,12 +69,10 @@ The Faker library is used to generate synthetic patient data.
 Contributions to the Secure DBaaS project are welcome. Please fork the repository and open a pull request. For major changes, kindly open an issue first to discuss what you’d like to change.
 
 ## Contact
-
-- Project Owner: Priyanka Vyas
-- Email: vpriyanka.sv@gmail.com
+- **Project Owner**: Priyanka Vyas
+- **Email**: vpriyanka.sv@gmail.com
 
 ## Acknowledgments
-
 This project was made possible with the help of the following tools and libraries:
 - Python
 - MySQL
