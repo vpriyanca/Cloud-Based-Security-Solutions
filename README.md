@@ -52,20 +52,20 @@ The Faker library is used to generate synthetic patient data.
 ### SHA-256 Hashing
 - Computes a hash for each record to detect unauthorized modifications or data loss.
 
- ## Key Findings
+ ### Key Findings
 - Successfully implemented AES encryption for gender and age, confirming confidentiality during data storage.
 - Verified that order-preserving encryption (OPE) enabled secure and accurate range queries on weight fields.
 - Demonstrated role-based access control, restricting sensitive data based on user privileges.
 - Ensured data integrity using SHA-256 hashes; unauthorized data edits were flagged as invalid.
 - All operations validated using synthetic healthcare records generated via Faker.
 
-## Custom Utility Functions
+### Custom Utility Functions
 - encrypt_data_AES() / decrypt_data_AES() – AES-based data security functions.
 - simple_ope_encrypt() / simple_ope_decrypt() – Functions to apply or reverse OPE.
 - generate_record_hash() – Computes SHA-256 hashes for integrity checks.
 - validate_patient_data() – Ensures patient inputs are within expected formats.
 
- ## Contributing
+## Contributing
 Contributions to the Secure DBaaS project are welcome. Please fork the repository and open a pull request. For major changes, kindly open an issue first to discuss what you’d like to change.
 
 ## Contact
