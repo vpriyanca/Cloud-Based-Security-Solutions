@@ -74,6 +74,7 @@ Contributions to the Secure DBaaS project are welcome. Please fork the repositor
 
 ## Acknowledgments
 This project was made possible with the help of the following tools and libraries:
+
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python) ![MySQL](https://img.shields.io/badge/MySQL-Enabled-4479A1?logo=mysql) ![bcrypt](https://img.shields.io/badge/bcrypt-Enabled-green) ![cryptography](https://img.shields.io/badge/cryptography-Enabled-purple) ![Faker](https://img.shields.io/badge/Faker-Data%20Generation-yellow) ![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-F9AB00?logo=google-colab&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 
 Thanks to all contributors and open-source libraries that supported this work.
